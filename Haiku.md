@@ -1,6 +1,6 @@
-# "Modular Man"
-# ,Will Higgins
+#"Modular Man"
+#,Will Higgins
 
-## A *modular* man
+##A *modular* man
 Seeks only to exist in
 a *modular* world.
