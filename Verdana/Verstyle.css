@@ -1,102 +1,88 @@
-<!DOCTYPE css>
 
-all{ column-count: 2
-        column-gap: 40px;
-       font-family: "Verdana";
-        
+
+/* external style */
+.all{font-family: "Verdana";
+    column-count: 2;
     }
+
     
-  
-    button{font-size: 20pt;
-        font-family: "Verdana";
-        background-color: #FDB813;
-        border: none;
-        color: white;
-        cursor: pointer;
-        
-        
-    }
-    
-    buttonhover{background-color: #FFFFFF; 
-  color: #FDB813;
- font-family: "Verdana";
-transition-duration: 0.4s;
-        
-        
-    }
-    
-    buttonactive{
-        
-        
-    }
-    form{ padding-top: 285px;
-        padding-left: 555px;
-        position: absolute;
-        font-family: "Verdana";
-       
-        
-    }
-    
-    Head-1 {font-size: 30pt;
+    .Head-1 {font-size: 30pt;
         line-height: 100%;
         padding-top: 100px
-            position absolute;
+        position: static;
         color: #F05125;
      
         
         
     }
-    Body-1 {display: inline-block;
-        max-width: 200px;
-        max-height: 700px;
-        margin: 10px auto;
+    .p-1{
+        
+        
+        
+    }
+     .p-2{ margin-top: 100px;
+         border-right 100px;
+
+        
+        
+        
+    }
+     .p-3{ margin-top: 200px;
+    
+        
+        
+        
+    }
+     .p-4{ margin-top: 300px;
+    
+
+        
+        
+    }
+    .Body-1 {display: inline;
+        max-width: 300px;
+        max-height: 500px;
         color: #7FBB42;
-       padding-left: 200px;
-        padding-top: 220px;
         position: relative;
      
         
        
          }
-    Head-2{font-size: 17.5pt;
+    .Head-2{font-size: 17.5pt;
+
          color: #7FBB42;
-        padding-left: 200px;
-        padding-top: 45px;
-        position: absolute;
+        position: static;
 
         
         
         
         
     }
-    Head-4{font-size: 17.5pt;
+    .Head-4{font-size: 17.5pt;
          color: #7FBB42;
-        padding-left: 200px;
-        padding-top: 85px;
-        position: absolute;
+        position: static;
      
 
         
     }
-    Body-2 {display: inline-block;
-        max-width: 200px;
-        max-height: 700px;
+    .Body-2 {display: inline;
+        max-width: 300px;
+        max-height: 500px;
         padding-top: 500px;
         padding-left: 150px;
-        position: absolute;
+        position: static;
         color: #32A0DA;
     
        
     }
-    div{ line-height: 50%;
-        
-        
-    }
-    Head-3{ font-size: 17.5pt;
+    .Head-3{ font-size: 17.5pt;
         max-width: 200px;
-        max-height: 700px;
-        padding-top: 370px;
-        padding-left: 150px;
-        position: absolute;
+        max-height: 500px;
+        position: static;
         color: #32A0DA;
     }
+    .flex-container{ display: flex;
+        
+        
+    }
+
