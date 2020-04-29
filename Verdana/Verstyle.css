@@ -6,6 +6,7 @@
 .column-1{ display:inline-flex;
         max-width: 370px;
     
+    
 }
     
     .Head-1 {font-size: 30pt;
@@ -17,12 +18,12 @@
     }
 
 .column-2{ display: inline-flex;
-    padding-top: 300px;
+
     
    
 }
 
-    .Body-1 {display: inline;
+    .Body-1 { display: inline;
         color: #7FBB42;
         position: relative;
      
@@ -30,7 +31,6 @@
        
          }
     .Head-2{font-size: 17.5pt;
-
          color: #7FBB42;
         position: relative;
 
@@ -47,7 +47,8 @@
 
         
     }
-    .Body-2 {max-width: 300px;
+    .Body-2 {display: inline;
+        max-width: 300px;
         max-height: 500px;
        position: relative;
         color: #32A0DA;
@@ -57,9 +58,16 @@
     .Head-3{ font-size: 17.5pt;
         position: relative;
         color: #32A0DA;
+      
     }
     
-        
+ul{font-family:"Verdana";
+    color: #F05125;
+    
+    
+    
+    
+}
         
     }
 
